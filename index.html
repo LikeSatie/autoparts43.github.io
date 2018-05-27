@@ -40,7 +40,41 @@
     </div>
     <a href="#special-items" class="btn header-link primary-color"><i class="fas fa-arrow-down"></i></a>
   </header>
-  <navbar></navbar>
+  <nav class="navbar navbar-expand-lg">
+    <a href="#" class="navbar-brand text-uppercase primary-color">Автозапчасти, Киров</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+      <div class="toggler-btn">
+        <div class="bar bar-1"></div>
+        <div class="bar bar-2"></div>
+        <div class="bar bar-3"></div>
+      </div>
+    </button>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a href="#special-items" class="nav-link text-capitalized">Ассортимент</a>
+        </li>
+        <li class="nav-item">
+          <a href="#menu" class="nav-link text-capitalized">Цены</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link text-capitalized">О нас</a>
+        </li>
+        <li class="nav-item">
+          <a href="#reviews" class="nav-link text-capitalized">Отзывы</a>
+        </li>
+        <li class="nav-item">
+          <a href="#team" class="nav-link text-capitalized">Сотрудники</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link text-capitalized">Контакты</a>
+        </li>
+      </ul>
+      <form class="form-inline d-none d-lg-block mr-5">
+        <button class="btn nav-btn text-capitalize" type="button">Сделать заказ</button>
+      </form>
+    </div>
+  </nav>
   <section class="py-5" id="special-items">
     <div class="container my-5">
       <div class="row parent-container">
@@ -204,6 +238,198 @@
         </div>
       </div>
     </div>
+  </section>
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 my-4">
+          <h3 class="text-uppercase display-3">О нас</h3>
+          <h4 class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae nesciunt non necessitatibus maiores obcaecati asperiores mollitia. Magni provident ipsum libero laudantium beatae reiciendis eum adipisci sed. Ex illo, iusto dolore!</h4>
+          <a href="№" class="btn main-btn my-4 text-capitalized">Узнать больше</a>
+        </div>
+        <div class="col-md-6 about-pictures my-4 d-none d-lg-block">
+          <img src="images/nophoto.png" alt="about-img-item-1" class="img-1 img-thumbnail about-image">
+          <img src="images/nophoto.png" alt="about-img-item-2" class="img-2 img-thumbnail about-image">
+          <img src="images/nophoto.png" alt="about-img-item-3" class="img-3 img-thumbnail about-image">
+          <img src="images/nophoto.png" alt="about-img-item-4" class="img-4 img-thumbnail about-image">
+          <img src="images/nophoto.png" alt="about-img-item-5" class="img-5 img-thumbnail about-image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="reviews" class="py-5">
+    <div id="slider" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-10 mx-auto d-flex justify-content-between review-item py-3">
+                <div class="align-self-center ml-3">
+                  <img src="images/nophoto.png" alt="" class="rounded-circle review-img">
+                </div>
+                <div class="review-text px-5">
+                  <h3 class="text-capitalize mb-3 primary-color">Имя клиента</h3>
+                  <p class="lead text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, ducimus!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-10 mx-auto d-flex justify-content-between review-item py-3">
+                <div class="align-self-center ml-3">
+                  <img src="images/nophoto.png" alt="" class="rounded-circle review-img">
+                </div>
+                <div class="review-text px-5">
+                  <h3 class="text-capitalize mb-3 primary-color">Имя клиента</h3>
+                  <p class="lead text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, ducimus!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-10 mx-auto d-flex justify-content-between review-item py-3">
+                <div class="align-self-center ml-3">
+                  <img src="images/nophoto.png" alt="" class="rounded-circle review-img">
+                </div>
+                <div class="review-text px-5">
+                  <h3 class="text-capitalize mb-3 primary-color">Имя клиента</h3>
+                  <p class="lead text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, ducimus!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#slider" class="carousel-control-prev" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#slider" class="carousel-control-next" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+  <section id="team" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-9 col-sm-6 col-lg-4 mx-auto my-4">
+          <div class="card">
+            <img src="images/nophoto.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="text-capitalize">Имя специалиста</h3>
+                <h4 class="primary-color text-capitalize">Должность</h4>
+              </div>
+            </div>
+            <div class="card-footer team-icons d-flex justify-content-between">
+              <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+              <a href="#"><i class="fab fa-vk fa-2x"></i></a>
+              <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+              <a href="#"><i class="fab fa-google-plus fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-9 col-sm-6 col-lg-4 mx-auto my-4">
+          <div class="card">
+            <img src="images/nophoto.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="text-capitalize">Имя специалиста</h3>
+                <h4 class="primary-color text-capitalize">Должность</h4>
+              </div>
+            </div>
+            <div class="card-footer team-icons d-flex justify-content-between">
+              <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+              <a href="#"><i class="fab fa-vk fa-2x"></i></a>
+              <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+              <a href="#"><i class="fab fa-google-plus fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-9 col-sm-6 col-lg-4 mx-auto my-4">
+          <div class="card">
+            <img src="images/nophoto.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="text-capitalize">Имя специалиста</h3>
+                <h4 class="primary-color text-capitalize">Должность</h4>
+              </div>
+            </div>
+            <div class="card-footer team-icons d-flex justify-content-between">
+              <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+              <a href="#"><i class="fab fa-vk fa-2x"></i></a>
+              <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+              <a href="#"><i class="fab fa-google-plus fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container-fluid no-padding">
+      <div class="row">
+        <div class="col-md-6 my-3">
+          <div class="embed-responsive embed-responsive-29by9 height-60">
+            <iframe src="https://yandex.ru/map-widget/v1/-/CBqDRBuWWC" width="560" height="400" frameborder="0"></iframe>
+          </div>
+        </div>
+        <div class="col-md-6 my-3 align-self-center">
+          <div class="card text-center">
+            <div class="card-header">
+              <h3 class="text-uppercase">Контакты</h3>
+            </div>
+            <div class="card-body">
+              <form>
+                <div class="input-group my-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="input-text">
+                      <i class="fas fa-user"></i>
+                    </span>
+                  </div>
+                  <input type="text" class="form-control form-control-lg" id="text" placeholder="Ваше имя">
+                </div>
+                <div class="input-group my-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="input-phone">
+                      <i class="fas fa-phone"></i>
+                    </span>
+                  </div>
+                  <input type="text" class="form-control form-control-lg" id="phone" placeholder="Ваш номер телефона">
+                </div>
+                <div class="input-group my-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="input-email">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                  </div>
+                  <input type="email" class="form-control form-control-lg" id="text" placeholder="Адрес электронной почты">
+                </div>
+                <button type="submit" class="contact-btn btn btn-block btn-lg text-uppercase"><i class="far fa-hand-point-right mr-2"></i>Отправить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid info p-3">
+    <div class="row">
+      <div class="col d-flex justify-content-between align-items-baseline flex-wrap">
+        <div class="info-icons p-2">
+          <a class="mr-2 primary-color" href="#"><i class="fab fa-vk fa-2x"></i></a>
+          <a class="mr-2 primary-color" href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a class="mr-2 primary-color" href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+        <h2 class="primary-color p-2 text-uppercase">&copy;Все права защищены. 2018</h2>
+      </div>
+    </div>
+    <a href="#top-icons" id="back-to-top" class="p-1"><i class="fas fa-arrow-up primary-color fa-3x"></i></a>
   </section>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
